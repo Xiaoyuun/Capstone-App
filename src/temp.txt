@@ -1,0 +1,20 @@
+<View style={styles.view}>
+                    <Text style={styles.text}>
+                        Post Page
+                    </Text>
+                    <Text style={styles.text3}>
+                        Check for the the newest posts here!
+                    </Text>
+                    <Button
+                        activeOpacity={0.5}
+                        buttonStyle={styles.button}
+                        title="Go back to Dashboard"
+                        onPress={() => navigation.navigate("Dashboard")} />
+                    <View style={styles.posts}>
+                        <View style={styles.post}>
+                            <Text>Post 1</Text>
+                        </View>
+                    </View>
+                </View>
+
+                // this is for postscreen.js

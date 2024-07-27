@@ -1,0 +1,45 @@
+// AddPostScreen.js
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addPost } from '../redux/slices';
+import firestore from '@react-native-firebase/firestore';
+import { View, TextInput, Button, StyleSheet } from 'react-native';
+
+const AddPostScreen = () => {
+    const [content, setContent] = useState('');
+    const dispatch = useDispatch();
+
+    const handleAddPost = async () => {
+        const docRef = await firestore().collection('posts').add({ content });
+        const newPost = { id: docRef.id, content };
+        dispatch(addPost(newPost));
+        setContent('');
+    };
+
+    return (
+        <View style={styles.container}>
+            <TextInput
+                style={styles.input}
+                value={content}
+                onChangeText={setContent}
+                placeholder="What's happening?"
+            />
+            <Button title="Post" onPress={handleAddPost} />
+        </View>
+    );
+};
+
+const styles = StyleSheet.create({
+    container: {
+        padding: 10,
+    },
+    input: {
+        height: 40,
+        borderColor: 'gray',
+        borderWidth: 1,
+        marginBottom: 10,
+        padding: 10,
+    },
+});
+
+export default AddPostScreen;

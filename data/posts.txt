@@ -1,0 +1,16 @@
+import { PostCard } from "../components/PostCard";
+
+export const POSTS = [
+    {
+        id: 'PostA',
+        user: 'User1',
+        text: 'This is my first post',
+        createdDate: Date.now(),
+    },
+    {
+        id: 'PostB',
+        user: 'User2',
+        text: 'Hello',
+        createdDate: Date.now(),
+    }
+];
