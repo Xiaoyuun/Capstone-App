@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         padding: 10,
         borderRadius: 15,
-        borderColor: 'gray'
+        borderColor: 'gray',
     },
     fab: {
         marginTop: 10,
