@@ -1,4 +1,7 @@
 Screens
+![Screenshot 2024-07-26 at 9 36 23 PM](https://github.com/user-attachments/assets/7478eef8-262c-44ea-8030-b9a795c87145)
+![Screenshot 2024-07-26 at 9 37 04 PM](https://github.com/user-attachments/assets/46fd5198-b218-4d36-8c2f-4c236aa78308)
+![Screenshot 2024-07-26 at 9 37 28 PM](https://github.com/user-attachments/assets/81de9e5a-ff8d-488c-b6cf-6615e0847f30)
 ![Screenshot 2024-07-26 at 9 32 20 PM](https://github.com/user-attachments/assets/cb084dcb-f31e-4b2b-a60f-339cd9f910e8)
 ![Screenshot 2024-07-26 at 9 32 47 PM](https://github.com/user-attachments/assets/3f20f219-d5b0-4e93-bd57-a79039172254)
 ![Screenshot 2024-07-26 at 9 33 40 PM](https://github.com/user-attachments/assets/bddb0abd-949f-4481-9079-4b17bf3254d4)
